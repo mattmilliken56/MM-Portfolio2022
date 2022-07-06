@@ -1,0 +1,112 @@
+* {
+    padding: 3px;
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: orangered;
+    font-size: 24px;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+  }
+
+ul {
+    margin: 5px;
+    display: inline-flex;
+    padding: 5px;
+  }
+
+li {
+    margin-right: 50px;
+}  
+
+.contain {
+  display: flex;
+}
+
+.me {
+  height: 400px;
+  width: 100%;
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+  background-image: url("//lh3.googleusercontent.com/GaaOAPGW2faZP-FEJ-0t1E5xBf41dnfYGsvJpl8biPmK2_h-O4gJUxrT1jFi55Dad2r7A6LWzV9CB3Djv8qDh7_SO1YYdiZUgZaCXnp2U3EE__z51h7pmhznHGO2koskhhKBJomcBg=w2400");
+  background-size: cover;
+  background-position: center;
+}
+
+ #aboutme{
+  
+ }
+
+#mywork {
+  flex-direction: coumn;
+}  
+
+.art {
+  background-color: orangered;
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+  padding: 2px;
+  margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-left {
+    position: absolute;
+    color: black;
+}
+
+img {
+    height: 200px;
+    width: 300px
+}
+
+.box1 {
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    display: inline-flex;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    flex: 1; 
+    flex-wrap: wrap;
+   }
+
+h2 {
+  font-size: 40px;
+}   
+
+footer {
+  display: i;
+  background-color: orangered;
+  font-size: 16px;
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+  }
